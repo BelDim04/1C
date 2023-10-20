@@ -65,7 +65,6 @@ for file_name1 in dir_files(dir1_name):
         match mode:
             case Mode.LCS:
                 percentage[(file_name1,file_name2)] = pylcs.lcs_sequence_length(s1, s2) / get_max_len(s1, s2) if get_max_len(s1, s2) else 1
-                break
             case Mode.BASIC:
                 percentage[(file_name1,file_name2)] = count_similar(s1, s2) / get_max_len(s1, s2) if get_max_len(s1, s2) else 1
 
