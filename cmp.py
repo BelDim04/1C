@@ -50,6 +50,7 @@ def count_similar(s1: str, s2: str) -> int:
     res = 0
     for c1, c2 in zip(s1, s2):
         res += 1 if c1 == c2 else 0
+    return res
 
 def get_max_len(s1: str, s2: str) -> int:
     return max(len(s1), len(s2))
