@@ -14,5 +14,5 @@ pip install -r requirements.txt
 ```
 
 ## Внутреннее устройство
-при достаточно малых (для приемлемого времени работы) размерах файлов для их сравнения используется алгоритм [Longest common subsequence](https://en.wikipedia.org/wiki/Longest_common_subsequence)
+при достаточно малых (для приемлемого времени работы) размерах файлов для их сравнения используется алгоритм [Longest common subsequence](https://en.wikipedia.org/wiki/Longest_common_subsequence)\
 иначе используется последовательное посимвольное сравнение файлов
